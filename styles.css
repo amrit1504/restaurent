@@ -1,0 +1,88 @@
+
+body {
+  background-image: url(home2.png) ; 
+  background-repeat: no-repeat;
+  background-size: cover ;
+ 
+  
+}
+
+.cover-container {
+  max-width: 42em;
+  margin-top: 20px;
+}
+
+/* NAVBAR */
+.nav-link {
+    color: #FFC233;
+    font-family: "Ubuntu" , sans-serif;
+}
+.nav-link:hover{
+    color: #f8d481;
+}
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+  
+}
+
+.nav-tags{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+    
+    
+}
+.nav-div{
+    margin-left: -630px;
+    margin-right: 150px;
+    
+}
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+  }
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+.order{
+    position: absolute;
+    right: 250px;
+}
+.btn1{
+    margin-left: 180px;
+    width: 120px;
+}
+.btn{
+    font-family: "Montserrat" , sans-serif;
+    border-radius: 0;
+}
+/* ABOUT */
+.head1{
+    color: #FFC233 ;
+    font-family: "Montserrat" , sans-serif;
+    font-size: 80px;
+}
+.main-txt{
+   margin: 120px -100px 250px -100px;
+}
+.btn2{
+    margin-top: 20px;
+    width: 230px;
+    
+}
+/* footer */
+.img3{
+   position: relative;
+   bottom: 300px;
+   left: 620px;
+   margin: auto;
+}
